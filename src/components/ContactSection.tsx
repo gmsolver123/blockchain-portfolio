@@ -1,4 +1,4 @@
-import { Send, Phone, Mail, MapPin, Github, Linkedin, Twitter } from "lucide-react";
+import { Send, Phone, Mail, MapPin, Github, Linkedin } from "lucide-react";
 import { useState } from "react";
 
 const ContactSection = () => {
@@ -72,7 +72,7 @@ const ContactSection = () => {
                     </div>
                     <div>
                       <p className="font-semibold">Phone</p>
-                      <p className="text-muted-foreground">+1 251 426 6420</p>
+                      <p className="text-muted-foreground">+1 757 863 5822</p>
                     </div>
                   </div>
 
@@ -104,6 +104,19 @@ const ContactSection = () => {
                     className="p-3 bg-muted rounded-lg hover:bg-accent/20 transition-all duration-300 hover:scale-110 hover:shadow-[var(--glow-accent)] group"
                   >
                     <Linkedin className="w-5 h-5 group-hover:text-accent transition-colors" />
+                  </button>
+                  <button 
+                    onClick={() => window.open('https://x.com/pedroramos90119', '_blank')}
+                    className="p-3 bg-muted rounded-lg hover:bg-secondary/20 transition-all duration-300 hover:scale-110 hover:shadow-[var(--glow-secondary)] group"
+                  >
+                    <svg 
+                      className="w-5 h-5 group-hover:text-secondary transition-colors" 
+                      viewBox="0 0 24 24" 
+                      fill="currentColor"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/>
+                    </svg>
                   </button>
                 </div>
               </div>
