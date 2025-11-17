@@ -99,12 +99,7 @@ const ContactSection = () => {
                   >
                     <Github className="w-5 h-5 group-hover:text-primary transition-colors" />
                   </button>
-                  <button 
-                    onClick={() => window.open('https://www.linkedin.com/in/pedro-ramos-9187a4383/', '_blank')}
-                    className="p-3 bg-muted rounded-lg hover:bg-accent/20 transition-all duration-300 hover:scale-110 hover:shadow-[var(--glow-accent)] group"
-                  >
-                    <Linkedin className="w-5 h-5 group-hover:text-accent transition-colors" />
-                  </button>
+                  
                   <button 
                     onClick={() => window.open('https://x.com/pedroramos90119', '_blank')}
                     className="p-3 bg-muted rounded-lg hover:bg-secondary/20 transition-all duration-300 hover:scale-110 hover:shadow-[var(--glow-secondary)] group"
